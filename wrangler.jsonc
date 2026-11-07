@@ -1,0 +1,20 @@
+{
+  "name": "tms-api",
+  "main": "worker.js",
+  "compatibility_date": "2026-11-07",
+  "workers_dev": true,
+  "vars": {
+    "MQTT_HOST": "103.191.132.54",
+    "MQTT_PORT": "1883",
+    "MQTT_TLS": "off",
+    "TERMINAL_CLIENT_ID": "00078020708",
+    "PANEL_ORIGIN": "https://YOUR-PANEL.pages.dev"
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "tms-db",
+      "database_id": "REPLACE_WITH_YOUR_D1_DATABASE_ID"
+    }
+  ]
+}
